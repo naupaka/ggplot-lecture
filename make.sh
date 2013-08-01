@@ -1,5 +1,4 @@
-
-cd ~/Github/ggplot2-lecture/
+cd ~/Desktop/ggplot-lecture/
 rm ggplot.tex
 Rscript -e "library(knitr); knit('ggplot.Rnw', quiet = TRUE)"
 pdflatex ggplot.tex
